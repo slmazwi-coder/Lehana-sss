@@ -1,0 +1,7 @@
+{
+  "name": "Lehana Senior Secondary School",
+  "description": "Lehana SSS is a public school at Castle Rock, Tsekong Location, Mount Fletcher, Eastern Cape. Established 1957.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
