@@ -69,7 +69,7 @@ const ProgramCard: React.FC<{ prog: any }> = ({ prog }) => (
     className="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden group"
   >
     <div className="aspect-video bg-[#FDF8E8] flex items-center justify-center relative">
-      <prog.icon size={64} className="text-[#8B1A1A]/40" />
+      <prog.icon size={64} className="text-[#A8131C]/40" />
       <div className="absolute inset-0 bg-[#D4A017] flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <prog.icon size={48} className="text-white" />
       </div>
@@ -77,8 +77,8 @@ const ProgramCard: React.FC<{ prog: any }> = ({ prog }) => (
     <div className="p-6">
       <div className="flex items-center gap-2 mb-2">
         <span className={`text-xs font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
-          prog.category === 'Sport' ? 'bg-[#FFF5D6] text-[#8B1A1A]' : 
-          prog.category === 'Academic' ? 'bg-[#FDF8E8] text-[#8B1A1A]' :
+          prog.category === 'Sport' ? 'bg-[#FFF5D6] text-[#A8131C]' : 
+          prog.category === 'Academic' ? 'bg-[#FDF8E8] text-[#A8131C]' :
           'bg-orange-100 text-orange-700'
         }`}>{prog.category}</span>
       </div>
@@ -119,8 +119,8 @@ export const ExtraCurricular = () => {
 
         {/* Sports */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#8B1A1A] mb-8 flex items-center gap-3">
-            <Dumbbell className="text-[#8B1A1A]" /> Sports
+          <h2 className="text-2xl font-bold text-[#A8131C] mb-8 flex items-center gap-3">
+            <Dumbbell className="text-[#A8131C]" /> Sports
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {sportsPrograms.map((prog, i) => <ProgramCard key={i} prog={prog} />)}
@@ -129,8 +129,8 @@ export const ExtraCurricular = () => {
 
         {/* Academic Extra-Curricular */}
         <section className="mb-16">
-          <h2 className="text-2xl font-bold text-[#8B1A1A] mb-8 flex items-center gap-3">
-            <BookOpen className="text-[#8B1A1A]" /> Academic Extra-Curricular
+          <h2 className="text-2xl font-bold text-[#A8131C] mb-8 flex items-center gap-3">
+            <BookOpen className="text-[#A8131C]" /> Academic Extra-Curricular
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {academicPrograms.map((prog, i) => <ProgramCard key={i} prog={prog} />)}
@@ -139,8 +139,8 @@ export const ExtraCurricular = () => {
 
         {/* Arts & Culture */}
         <section className="mb-24">
-          <h2 className="text-2xl font-bold text-[#8B1A1A] mb-8 flex items-center gap-3">
-            <Music className="text-[#8B1A1A]" /> Arts & Culture
+          <h2 className="text-2xl font-bold text-[#A8131C] mb-8 flex items-center gap-3">
+            <Music className="text-[#A8131C]" /> Arts & Culture
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {culturePrograms.map((prog, i) => <ProgramCard key={i} prog={prog} />)}
@@ -150,7 +150,7 @@ export const ExtraCurricular = () => {
         {/* Accolades and Hall of Fame */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <section>
-            <h2 className="text-3xl font-bold text-[#8B1A1A] mb-8 flex items-center gap-3">
+            <h2 className="text-3xl font-bold text-[#A8131C] mb-8 flex items-center gap-3">
               <Trophy className="text-yellow-600" /> Recent Accolades
             </h2>
             <div className="space-y-4">
@@ -173,7 +173,7 @@ export const ExtraCurricular = () => {
           </section>
 
           <section>
-            <h2 className="text-3xl font-bold text-[#8B1A1A] mb-8 flex items-center gap-3">
+            <h2 className="text-3xl font-bold text-[#A8131C] mb-8 flex items-center gap-3">
               <Star className="text-yellow-500" /> Sports Hall of Fame
             </h2>
             <div className="bg-[#D4A017] rounded-3xl p-8 text-white">

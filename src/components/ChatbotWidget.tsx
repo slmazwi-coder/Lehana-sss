@@ -458,7 +458,7 @@ export function ChatbotWidget(props: { defaultOpen?: boolean }) {
                     <button
                       key={q}
                       onClick={() => send(q)}
-                      className="text-[11px] px-2.5 py-1 rounded-full bg-white border border-[#8B1A1A]/25 text-[#8B1A1A] hover:bg-[#B89200] hover:text-white transition-colors font-medium shadow-sm"
+                      className="text-[11px] px-2.5 py-1 rounded-full bg-white border border-[#A8131C]/25 text-[#A8131C] hover:bg-[#B89200] hover:text-white transition-colors font-medium shadow-sm"
                     >
                       {q}
                     </button>
@@ -480,7 +480,7 @@ export function ChatbotWidget(props: { defaultOpen?: boolean }) {
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
                 }}
-                className="flex-1 rounded-xl border border-gray-200 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#D4A017]/20 focus:border-[#8B1A1A]/40 transition-all bg-gray-50 placeholder:text-gray-400"
+                className="flex-1 rounded-xl border border-gray-200 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#D4A017]/20 focus:border-[#A8131C]/40 transition-all bg-gray-50 placeholder:text-gray-400"
                 placeholder="Ask me anything about the school…"
                 aria-label="Chat input"
                 disabled={isTyping}

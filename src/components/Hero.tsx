@@ -27,7 +27,7 @@ export const Hero = () => {
   const slide = slides[currentIndex];
 
   return (
-    <div className="relative h-[650px] w-full overflow-hidden" style={ { background: '#8B1A1A' } }>
+    <div className="relative h-[650px] w-full overflow-hidden" style={ { background: '#A8131C' } }>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
@@ -45,7 +45,7 @@ export const Hero = () => {
           />
           {/* Gradient overlay */}
           <div className="absolute inset-0"
-            style={ { background: 'linear-gradient(to top, rgba(90,15,15,0.92) 0%, rgba(139,26,26,0.55) 45%, rgba(50,10,10,0.35) 100%)' } } />
+            style={ { background: 'linear-gradient(to top, rgba(122,14,21,0.92) 0%, rgba(168,19,28,0.55) 45%, rgba(70,8,12,0.35) 100%)' } } />
         </motion.div>
       </AnimatePresence>
 
@@ -112,7 +112,7 @@ export const Hero = () => {
         >
           <a href="/admissions"
             className="px-7 py-3 font-bold transition-all rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-            style={ { background: '#D4A017', color: '#8B1A1A' } }
+            style={ { background: '#D4A017', color: '#A8131C' } }
           >
             Apply Now
           </a>
