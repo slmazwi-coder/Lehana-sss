@@ -34,7 +34,7 @@ export const About = () => {
             className="flex flex-col justify-center"
           >
             <div className="border-l-4 border-[#D4A017] pl-5 mb-6">
-              <h2 className="text-2xl font-bold text-[#1B3A5C]">Our School</h2>
+              <h2 className="text-2xl font-bold text-[#8B1A1A]">Our School</h2>
             </div>
             <div className="space-y-4 text-gray-600 leading-relaxed text-base">
               {data.historyParagraphs.map((p, i) => (
@@ -51,10 +51,10 @@ export const About = () => {
             viewport={ { once: true } }
             className="bg-[#FDF8E8] rounded-3xl overflow-hidden shadow-lg border border-[#D4A017]"
           >
-            <div className="bg-[#1B3A5C] p-6 sm:p-8">
+            <div className="bg-[#8B1A1A] p-6 sm:p-8">
               {/* Outer holder: rounded + gold frame all around */}
               <div
-                className="w-full rounded-3xl bg-[#1B3A5C] p-2 sm:p-3"
+                className="w-full rounded-3xl bg-[#8B1A1A] p-2 sm:p-3"
                 style={ { border: '4px solid #D4A017' } }
               >
                 {/* Inner holder: keeps the image nicely clipped on all corners */}
@@ -63,11 +63,11 @@ export const About = () => {
                     <img
                       src={campusImageUrl}
                       alt="School campus"
-                      className="w-full h-full object-contain bg-[#1B3A5C]"
+                      className="w-full h-full object-contain bg-[#8B1A1A]"
                       onError={() => setCampusFailed(true)}
                     />
                   ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-[#1B3A5C] via-[#D4A017] to-[#1B3A5C] flex items-center justify-center">
+                    <div className="w-full h-full bg-gradient-to-br from-[#8B1A1A] via-[#D4A017] to-[#8B1A1A] flex items-center justify-center">
                       <div className="text-center text-white/70 px-6">
                         <div className="mx-auto mb-3 w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center border border-white/15">
                           <ImageIcon />
@@ -93,8 +93,8 @@ export const About = () => {
         >
           {/* Section heading */}
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-extrabold text-[#1B3A5C] mb-2">Principal's Message</h2>
-            <div className="w-16 h-1 bg-[#1B3A5C] mx-auto rounded-full" />
+            <h2 className="text-3xl font-extrabold text-[#8B1A1A] mb-2">Principal's Message</h2>
+            <div className="w-16 h-1 bg-[#8B1A1A] mx-auto rounded-full" />
           </div>
 
           {/* Card */}
@@ -102,7 +102,7 @@ export const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-3">
 
               {/* Principal Photo Column */}
-              <div className="flex flex-col items-center justify-center bg-[#1B3A5C] p-8 md:p-10">
+              <div className="flex flex-col items-center justify-center bg-[#8B1A1A] p-8 md:p-10">
                 {/* Photo frame */}
                 <div className="w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#D4A017] shadow-xl mb-5">
                   {!principalFailed ? (
@@ -113,7 +113,7 @@ export const About = () => {
                       onError={() => setPrincipalFailed(true)}
                     />
                   ) : (
-                    <div className="w-full h-full flex items-center justify-center bg-[#1B3A5C]">
+                    <div className="w-full h-full flex items-center justify-center bg-[#8B1A1A]">
                       <ImageIcon className="text-white/40" size={40} />
                     </div>
                   )}
@@ -128,7 +128,7 @@ export const About = () => {
                 </p>
 
                 {/* Decorative divider */}
-                <div className="w-10 h-0.5 bg-[#1B3A5C] mt-4 rounded-full opacity-60" />
+                <div className="w-10 h-0.5 bg-[#8B1A1A] mt-4 rounded-full opacity-60" />
               </div>
 
               {/* Message Column */}
