@@ -59,7 +59,7 @@ export const Hero = () => {
             exit={ { opacity: 0, y: -8 } }
             transition={ { duration: 0.35 } }
             className="text-base md:text-lg font-medium tracking-widest uppercase"
-            style={ { color: 'rgba(212,160,23,0.85)' } }
+            style={ { color: 'rgba(255,255,255,0.85)' } }
           >
             {slide.caption}
           </motion.p>
@@ -79,7 +79,7 @@ export const Hero = () => {
             src="./lslogo.png"
             alt="Lehana SSS crest"
             className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover shadow-2xl mx-auto"
-            style={ { border: '3px solid #D4A017' } }
+            style={ { border: '3px solid #FFFFFF' } }
             onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
           />
         </motion.div>
@@ -89,7 +89,7 @@ export const Hero = () => {
           animate={ { opacity: 1, y: 0 } }
           transition={ { duration: 0.5, delay: 0.1 } }
           className="text-4xl md:text-6xl font-extrabold mb-3 uppercase tracking-wider"
-          style={ { color: '#D4A017' } }
+          style={ { color: '#FFFFFF' } }
         >
           Lehana SSS
         </motion.h1>
@@ -99,7 +99,7 @@ export const Hero = () => {
           animate={ { opacity: 1, y: 0 } }
           transition={ { duration: 0.5, delay: 0.18 } }
           className="text-base md:text-xl font-light italic mb-8"
-          style={ { color: 'rgba(212,160,23,0.8)' } }
+          style={ { color: 'rgba(255,255,255,0.8)' } }
         >
           "Enter to Learn"
         </motion.p>
@@ -112,13 +112,13 @@ export const Hero = () => {
         >
           <a href="/admissions"
             className="px-7 py-3 font-bold transition-all rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-            style={ { background: '#D4A017', color: '#A8131C' } }
+            style={ { background: '#FFFFFF', color: '#DC143C' } }
           >
             Apply Now
           </a>
           <a href="/about"
             className="px-7 py-3 font-bold transition-all rounded-lg hover:-translate-y-0.5"
-            style={ { border: '2px solid #D4A017', color: '#D4A017', background: 'transparent' } }
+            style={ { border: '2px solid #FFFFFF', color: '#FFFFFF', background: 'transparent' } }
           >
             About Us
           </a>
@@ -129,7 +129,7 @@ export const Hero = () => {
       <button
         onClick={prev}
         className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full z-20 transition-all hover:scale-110"
-        style={ { background: 'rgba(212,160,23,0.2)', color: '#D4A017' } }
+        style={ { background: 'rgba(255,255,255,0.2)', color: '#FFFFFF' } }
         aria-label="Previous"
       >
         <ChevronLeft size={32} />
@@ -137,7 +137,7 @@ export const Hero = () => {
       <button
         onClick={next}
         className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full z-20 transition-all hover:scale-110"
-        style={ { background: 'rgba(212,160,23,0.2)', color: '#D4A017' } }
+        style={ { background: 'rgba(255,255,255,0.2)', color: '#FFFFFF' } }
         aria-label="Next"
       >
         <ChevronRight size={32} />
@@ -150,7 +150,7 @@ export const Hero = () => {
             key={i}
             onClick={() => setCurrentIndex(i)}
             className="h-2 w-2 rounded-full transition-all"
-            style={ { background: i === currentIndex ? '#D4A017' : 'rgba(212,160,23,0.3)' } }
+            style={ { background: i === currentIndex ? '#FFFFFF' : 'rgba(255,255,255,0.3)' } }
           />
         ))}
       </div>
