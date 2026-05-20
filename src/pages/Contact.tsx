@@ -17,10 +17,10 @@ export const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
           <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.3 }}>
-            <h2 className="text-2xl font-bold text-[#8B1A1A] mb-8">Get in Touch</h2>
+            <h2 className="text-2xl font-bold text-[#A8131C] mb-8">Get in Touch</h2>
             <div className="space-y-8">
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#FDF8E8] text-[#8B1A1A] rounded-xl">
+                <div className="p-3 bg-[#FDF8E8] text-[#A8131C] rounded-xl">
                   <MapPin size={24} />
                 </div>
                 <div>
@@ -29,7 +29,7 @@ export const Contact = () => {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#FDF8E8] text-[#8B1A1A] rounded-xl">
+                <div className="p-3 bg-[#FDF8E8] text-[#A8131C] rounded-xl">
                   <Phone size={24} />
                 </div>
                 <div>
@@ -38,7 +38,7 @@ export const Contact = () => {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#FDF8E8] text-[#8B1A1A] rounded-xl">
+                <div className="p-3 bg-[#FDF8E8] text-[#A8131C] rounded-xl">
                   <Mail size={24} />
                 </div>
                 <div>
@@ -47,7 +47,7 @@ export const Contact = () => {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="p-3 bg-[#FDF8E8] text-[#8B1A1A] rounded-xl">
+                <div className="p-3 bg-[#FDF8E8] text-[#A8131C] rounded-xl">
                   <Clock size={24} />
                 </div>
                 <div>
@@ -74,7 +74,7 @@ export const Contact = () => {
             transition={{ duration: 0.3, delay: 0.05 }}
             className="bg-gray-50 p-6 sm:p-8 md:p-10 rounded-3xl border border-gray-100 shadow-sm"
           >
-            <h2 className="text-2xl font-bold text-[#8B1A1A] mb-8">Send us a Message</h2>
+            <h2 className="text-2xl font-bold text-[#A8131C] mb-8">Send us a Message</h2>
             <form className="space-y-6">
               <div className="space-y-2">
                 <label className="text-sm font-bold text-gray-700">Full Name</label>
