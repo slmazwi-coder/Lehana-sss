@@ -17,7 +17,7 @@
   }
 
   body {
-    @apply bg-[#FDF8E8] text-[#A8131C];
+    @apply bg-white text-[#DC143C];
   }
 
   #root {
@@ -26,33 +26,33 @@
   }
 }
 
-/* Nav glass — maroon background */
+/* Nav glass — crimson background */
 .glass-nav {
-  background: #A8131C;
-  border-bottom: 3px solid #DC143C;
+  background: #DC143C;
+  border-bottom: 3px solid #FFFFFF;
   @apply sticky top-0 z-50 w-full;
 }
 
-/* Primary button — crimson on maroon */
+/* Primary button — white on crimson */
 .btn-primary {
-  background: #A8131C;
-  color: #FDF8E8;
+  background: #DC143C;
+  color: #FFFFFF;
   @apply px-6 py-2 font-semibold transition-colors;
 }
 .btn-primary:hover {
-  background: #7A0E15;
+  background: #A8131C;
 }
 
 /* Section title */
 .section-title {
   @apply text-3xl font-bold mb-8 text-center;
-  color: #A8131C;
+  color: #DC143C;
 }
 
 /* Card */
 .card {
-  background: #FFFDF5;
-  border: 1px solid #DC143C;
+  background: #FFFFFF;
+  border: 2px solid #DC143C;
   @apply p-6 shadow-sm hover:shadow-md transition-shadow;
   border-radius: 0.75rem;
 }
