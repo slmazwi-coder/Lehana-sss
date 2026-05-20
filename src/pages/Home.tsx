@@ -16,12 +16,12 @@ export const Home = () => {
         <div className="mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div className="rounded-3xl border border-[#D4A017] bg-[#FDF8E8] p-6 sm:p-7 flex gap-4 items-start">
-              <div className="p-3 rounded-2xl bg-white border border-[#D4A017] text-[#1B3A5C] shrink-0">
+              <div className="p-3 rounded-2xl bg-white border border-[#D4A017] text-[#8B1A1A] shrink-0">
                 <Megaphone size={22} />
               </div>
               <div className="min-w-0">
                 <div className="flex flex-wrap items-center gap-2">
-                  <div className="text-sm font-black uppercase tracking-widest text-[#1B3A5C]">Notice</div>
+                  <div className="text-sm font-black uppercase tracking-widest text-[#8B1A1A]">Notice</div>
                   <span className="px-2 py-1 rounded-full text-xs font-bold bg-white border border-[#D4A017] text-gray-700">
                     2027
                   </span>
@@ -30,19 +30,19 @@ export const Home = () => {
                 <p className="text-gray-700 mt-1">
                   General school applications for the <span className="font-bold">2027</span> academic year are open.
                 </p>
-                <a href="/admissions" className="mt-4 inline-flex items-center gap-2 text-[#1B3A5C] font-bold">
+                <a href="/admissions" className="mt-4 inline-flex items-center gap-2 text-[#8B1A1A] font-bold">
                   Apply now <ArrowRight size={18} />
                 </a>
               </div>
             </div>
 
             <div className="rounded-3xl border border-gray-200 bg-gray-50 p-6 sm:p-7 flex gap-4 items-start">
-              <div className="p-3 rounded-2xl bg-white border border-gray-200 text-[#1B3A5C] shrink-0">
+              <div className="p-3 rounded-2xl bg-white border border-gray-200 text-[#8B1A1A] shrink-0">
                 <Megaphone size={22} />
               </div>
               <div className="min-w-0">
                 <div className="flex flex-wrap items-center gap-2">
-                  <div className="text-sm font-black uppercase tracking-widest text-[#1B3A5C]">Boarding</div>
+                  <div className="text-sm font-black uppercase tracking-widest text-[#8B1A1A]">Boarding</div>
                   <span className="px-2 py-1 rounded-full text-xs font-bold bg-white border border-gray-200 text-gray-700">
                     2027
                   </span>
@@ -51,7 +51,7 @@ export const Home = () => {
                 <p className="text-gray-700 mt-1">
                   Hostel accommodation applications for the <span className="font-bold">2027</span> academic year are open.
                 </p>
-                <a href="/boarding" className="mt-4 inline-flex items-center gap-2 text-[#1B3A5C] font-bold">
+                <a href="/boarding" className="mt-4 inline-flex items-center gap-2 text-[#8B1A1A] font-bold">
                   Apply for boarding <ArrowRight size={18} />
                 </a>
               </div>
@@ -72,7 +72,7 @@ export const Home = () => {
               transition={{ delay: i * 0.1, duration: 0.3 }}
               className="bg-white p-8 rounded-2xl shadow-xl flex items-center gap-6 border-b-4 border-[#D4A017]"
             >
-              <div className="p-4 bg-[#FDF8E8] rounded-xl text-[#1B3A5C]">
+              <div className="p-4 bg-[#FDF8E8] rounded-xl text-[#8B1A1A]">
                 <stat.icon size={32} />
               </div>
               <div>
@@ -89,7 +89,7 @@ export const Home = () => {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="section-title">Our Motto</h2>
           <p className="text-2xl text-gray-700 leading-relaxed font-light italic">
-            "Established 1957 — Educating for the future"
+            "Enter to Learn"
           </p>
         </div>
       </section>

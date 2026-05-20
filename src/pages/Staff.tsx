@@ -96,7 +96,7 @@ const StaffCard = ({ member }: { member: StaffMember }) => (
       )}
     </div>
 
-    <h3 className="text-sm font-bold leading-tight" style={ { color: '#1B3A5C' } }>
+    <h3 className="text-sm font-bold leading-tight" style={ { color: '#8B1A1A' } }>
       {member.name}
     </h3>
     <p className="text-xs font-semibold mt-1" style={ { color: '#D4A017' } }>
@@ -105,7 +105,7 @@ const StaffCard = ({ member }: { member: StaffMember }) => (
     {member.subject && (
       <span
         className="mt-2 inline-block text-xs font-medium px-3 py-1 rounded-full"
-        style={ { background: '#FDF8E8', color: '#1B3A5C', border: '1px solid #D4A017' } }
+        style={ { background: '#FDF8E8', color: '#8B1A1A', border: '1px solid #D4A017' } }
       >
         {member.subject}
       </span>
@@ -123,7 +123,7 @@ export const Staff = () => {
 
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-extrabold tracking-tight mb-3" style={ { color: '#1B3A5C' } }>
+          <h1 className="text-4xl font-extrabold tracking-tight mb-3" style={ { color: '#8B1A1A' } }>
             Our Staff
           </h1>
           <div className="w-16 h-1 mx-auto rounded-full mb-4" style={ { background: '#D4A017' } } />
@@ -140,8 +140,8 @@ export const Staff = () => {
               onClick={() => setActiveCategory(cat)}
               style={
                 activeCategory === cat
-                  ? { background: '#D4A017', color: '#1B3A5C', border: '2px solid #D4A017', fontWeight: 700 }
-                  : { background: '#FFFDF5', color: '#1B3A5C', border: '2px solid #D4A017' }
+                  ? { background: '#D4A017', color: '#8B1A1A', border: '2px solid #D4A017', fontWeight: 700 }
+                  : { background: '#FFFDF5', color: '#8B1A1A', border: '2px solid #D4A017' }
               }
               className="px-5 py-2 rounded-full text-sm font-semibold transition-all duration-200 hover:shadow-md"
             >

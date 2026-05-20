@@ -81,7 +81,7 @@ export const Documents = () => {
                 className="card group"
               >
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-[#FDF8E8] text-[#1B3A5C] rounded-xl group-hover:bg-[#B89200] group-hover:text-white transition-colors">
+                  <div className="p-3 bg-[#FDF8E8] text-[#8B1A1A] rounded-xl group-hover:bg-[#B89200] group-hover:text-white transition-colors">
                     <FileText size={24} />
                   </div>
                   <div className="flex-grow">
@@ -89,7 +89,7 @@ export const Documents = () => {
                     <p className="text-sm text-gray-500 mb-4">Resource • {doc.grade}</p>
                     <button 
                       onClick={() => handleDownload(doc)}
-                      className="flex items-center gap-2 text-[#1B3A5C] font-bold hover:underline"
+                      className="flex items-center gap-2 text-[#8B1A1A] font-bold hover:underline"
                     >
                       <Download size={16} /> Download
                     </button>

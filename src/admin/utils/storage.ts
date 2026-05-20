@@ -324,7 +324,7 @@ export const setContact = (info: ContactInfo) => setObject('admin_contact', info
 const defaultAbout: AboutInfo = {
   historyParagraphs: [
     'Lehana Senior Secondary School is a proud public school serving the community of Castle Rock, Tsekong Location in Mount Fletcher, Eastern Cape. Established on 1 January 1957, the school has a rich history of over six decades dedicated to education and community upliftment.',
-    'Located within the Joe Gqabi District under the Elundini Local Municipality, Lehana SSS is a Quintile 1 (No-Fee) school committed to providing quality education to all learners regardless of their financial circumstances. With 1,662 learners and 50 dedicated educators, the school offers a comprehensive curriculum from Grade 8 through Grade 12.',
+    'Located within the Joe Gqabi District under the Elundini Local Municipality, Lehana SSS is a Quintile 1 (No-Fee) school committed to providing quality education to all learners regardless of their financial circumstances. With 1,662 learners and 50 dedicated educators, the school offers a comprehensive curriculum from Grade 8 through Grade 12. Our motto — "Enter to Learn" — captures the spirit of opportunity that awaits every learner.',
     'Parents and guardians are encouraged to engage actively with the school through meetings, events, and ongoing learner support. Together we build a culture of achievement, discipline, and community pride.',
   ],
   principalName: 'Mr I.M. Makhabane',
