@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-school-gold:   #D4A017;
+  --color-school-crimson: #DC143C;
   --color-school-maroon: #A8131C;
-  --color-school-green:  #D4A017;   /* alias so existing Tailwind classes still work */
+  --color-school-white:  #FFFFFF;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -29,11 +29,11 @@
 /* Nav glass — maroon background */
 .glass-nav {
   background: #A8131C;
-  border-bottom: 3px solid #D4A017;
+  border-bottom: 3px solid #DC143C;
   @apply sticky top-0 z-50 w-full;
 }
 
-/* Primary button — gold on maroon */
+/* Primary button — crimson on maroon */
 .btn-primary {
   background: #A8131C;
   color: #FDF8E8;
@@ -52,7 +52,7 @@
 /* Card */
 .card {
   background: #FFFDF5;
-  border: 1px solid #D4A017;
+  border: 1px solid #DC143C;
   @apply p-6 shadow-sm hover:shadow-md transition-shadow;
   border-radius: 0.75rem;
 }
