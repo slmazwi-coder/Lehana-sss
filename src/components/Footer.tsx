@@ -14,7 +14,7 @@ const TikTokIcon = (props: { size?: number; className?: string }) => {
 
 export const Footer = () => {
   return (
-    <footer className="pt-12 pb-8 w-full" style={ { background: '#1B3A5C', borderTop: '4px solid #D4A017' } }>
+    <footer className="pt-12 pb-8 w-full" style={ { background: '#8B1A1A', borderTop: '4px solid #D4A017' } }>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
@@ -32,7 +32,7 @@ export const Footer = () => {
                   Lehana Senior Secondary School
                 </h3>
                 <p className="text-sm italic mt-0.5" style={ { color: 'rgba(212,160,23,0.65)' } }>
-                  "Established 1957 — Educating for the future"
+                  "Enter to Learn"
                 </p>
               </div>
             </div>

@@ -2,7 +2,7 @@
 
 @theme {
   --color-school-gold:   #D4A017;
-  --color-school-navy:   #1B3A5C;
+  --color-school-maroon: #8B1A1A;
   --color-school-green:  #D4A017;   /* alias so existing Tailwind classes still work */
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
@@ -17,7 +17,7 @@
   }
 
   body {
-    @apply bg-[#FDF8E8] text-[#1B3A5C];
+    @apply bg-[#FDF8E8] text-[#8B1A1A];
   }
 
   #root {
@@ -26,27 +26,27 @@
   }
 }
 
-/* Nav glass — navy background */
+/* Nav glass — maroon background */
 .glass-nav {
-  background: #1B3A5C;
+  background: #8B1A1A;
   border-bottom: 3px solid #D4A017;
   @apply sticky top-0 z-50 w-full;
 }
 
-/* Primary button — gold on navy */
+/* Primary button — gold on maroon */
 .btn-primary {
-  background: #1B3A5C;
+  background: #8B1A1A;
   color: #FDF8E8;
   @apply px-6 py-2 font-semibold transition-colors;
 }
 .btn-primary:hover {
-  background: #0F2440;
+  background: #5A0F0F;
 }
 
 /* Section title */
 .section-title {
   @apply text-3xl font-bold mb-8 text-center;
-  color: #1B3A5C;
+  color: #8B1A1A;
 }
 
 /* Card */

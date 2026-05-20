@@ -3,16 +3,12 @@ import { AnimatePresence, motion } from 'motion/react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const slides = [
-  { url: './lshero1.png',  caption: 'Academic excellence since 1957' },
-  { url: './lshero2.png',  caption: 'Shaping futures in Mount Fletcher' },
-  { url: './lshero3.png',  caption: 'Our learners, our pride' },
-  { url: './lshero4.png',  caption: 'Discipline and dedication' },
-  { url: './lshero5.png',  caption: 'Building community through education' },
-  { url: './assets/hero/lshero1.png',  caption: '1,662 learners strong' },
-  { url: './assets/hero/lshero2.png',  caption: 'The spirit of Lehana SSS' },
-  { url: './assets/hero/lshero3.png',  caption: 'Eastern Cape — Joe Gqabi District' },
-  { url: './assets/hero/lshero4.png',  caption: 'Quality education for all' },
-  { url: './assets/hero/lshero5.png', caption: 'Community and culture' },
+  { url: './lshero1.png',  caption: 'Our choir — pride of Lehana SSS' },
+  { url: './lshero2.png',  caption: 'Our campus at Castle Rock, Mount Fletcher' },
+  { url: './lshero3.png',  caption: 'Lehana Senior Secondary School — Enter to Learn' },
+  { url: './assets/hero/lshero1.png',  caption: 'Culture, music, and community' },
+  { url: './assets/hero/lshero2.png',  caption: 'Educating since 1957' },
+  { url: './assets/hero/lshero3.png',  caption: 'Building futures in the Eastern Cape' },
 ];
 
 export const Hero = () => {
@@ -31,7 +27,7 @@ export const Hero = () => {
   const slide = slides[currentIndex];
 
   return (
-    <div className="relative h-[650px] w-full overflow-hidden" style={ { background: '#1B3A5C' } }>
+    <div className="relative h-[650px] w-full overflow-hidden" style={ { background: '#8B1A1A' } }>
       <AnimatePresence mode="wait">
         <motion.div
           key={currentIndex}
@@ -49,7 +45,7 @@ export const Hero = () => {
           />
           {/* Gradient overlay */}
           <div className="absolute inset-0"
-            style={ { background: 'linear-gradient(to top, rgba(15,36,64,0.92) 0%, rgba(27,58,92,0.55) 45%, rgba(10,20,35,0.35) 100%)' } } />
+            style={ { background: 'linear-gradient(to top, rgba(90,15,15,0.92) 0%, rgba(139,26,26,0.55) 45%, rgba(50,10,10,0.35) 100%)' } } />
         </motion.div>
       </AnimatePresence>
 
@@ -105,7 +101,7 @@ export const Hero = () => {
           className="text-base md:text-xl font-light italic mb-8"
           style={ { color: 'rgba(212,160,23,0.8)' } }
         >
-          "Established 1957 — Educating for the future"
+          "Enter to Learn"
         </motion.p>
 
         <motion.div
@@ -116,7 +112,7 @@ export const Hero = () => {
         >
           <a href="/admissions"
             className="px-7 py-3 font-bold transition-all rounded-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5"
-            style={ { background: '#D4A017', color: '#1B3A5C' } }
+            style={ { background: '#D4A017', color: '#8B1A1A' } }
           >
             Apply Now
           </a>

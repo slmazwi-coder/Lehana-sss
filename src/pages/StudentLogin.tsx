@@ -100,7 +100,7 @@ export const StudentLogin = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#D4A017] text-white py-3 rounded-xl font-bold hover:bg-[#0F2440] transition-colors"
+            className="w-full bg-[#D4A017] text-white py-3 rounded-xl font-bold hover:bg-[#5A0F0F] transition-colors"
           >
             Sign In
           </button>
