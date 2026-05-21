@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { MessageCircle, X, Send, Globe, ChevronDown, Sparkles } from 'lucide-react';
 import { getApplications, type Application } from '../admin/utils/storage';
 
-// ── Types ──────────────────────────────────────────────────────────────────
+// ── Types ────────────────────────────────────────────────────────────────────
 type ChatRole = 'user' | 'bot';
 type ChatMessage = {
   id: string;
@@ -35,7 +35,7 @@ const QUICK_QUESTIONS = [
   'What are the school hours?',
 ];
 
-// ── Helpers ─────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────────
 function uid() {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
@@ -49,7 +49,7 @@ function formatDate(iso: string | undefined) {
   try { return new Date(iso).toLocaleDateString(); } catch { return iso; }
 }
 
-// ── Status lookup ────────────────────────────────────────────────────────────
+// ── Status lookup ─────────────────────────────────────────────────────────────
 type StatusQuery =
   | { kind: 'studentNumber'; studentNumber: string }
   | { kind: 'nameAndDob'; firstName: string; lastName: string; dob: string };
@@ -133,7 +133,7 @@ async function translateText(text: string, src: SupportedLang, tgt: SupportedLan
   }
 }
 
-// ── Claude AI (Anthropic) ────────────────────────────────────────────────────
+// ── Claude AI (Anthropic) ──────────────────────────────────────���─────────────
 const SYSTEM_PROMPT = `You are a warm, knowledgeable and friendly assistant for Lehana Senior Secondary School in Mount Fletcher, Eastern Cape, South Africa.
 
 You help parents, learners, guardians and community members with anything about the school:
@@ -161,7 +161,7 @@ School details:
 - Local Municipality: Elundini Local Municipality
 - Quintile: Q1 (No-Fee School)
 - Motto: "Enter to Learn"
-- Principal: Mr I.M. Makhabane
+- Principal: Ms Ramaipato
 - School hours: Monday–Thursday 07:30–15:30, Friday 07:30–13:30
 - Grades: Grade 8 to Grade 12
 - Total Learners: 1,662 | Total Educators: 50 | Student-Teacher Ratio: 33:1
@@ -276,7 +276,7 @@ export function ChatbotWidget(props: { defaultOpen?: boolean }) {
       if (statusQ) {
         const app = findApplication(apps, statusQ);
         const replyText = app
-          ? `I found the application for ${app.firstName} ${app.lastName} (Student number: ${app.studentNumber}). Status: ${app.status}.${app.submittedDate ? ` Submitted: ${formatDate(app.submittedDate)}.` : ''}`
+          ? `I found the application for ${app.firstName} ${app.lastName} (Student number: ${app.studentNumber}). Status: ${app.status}.${app.submittedDate ? ` Submitted: ${formatDate(app.submittedDate)}` : ''}`
           : 'I could not find a matching application. Please double-check the student number or learner name and date of birth.';
         setMessages((prev) => [...prev, { id: uid(), role: 'bot', text: replyText, createdAt: Date.now() }]);
         setIsTyping(false);
@@ -480,7 +480,7 @@ export function ChatbotWidget(props: { defaultOpen?: boolean }) {
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
                 }}
-                className="flex-1 rounded-xl border border-gray-200 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#D4A017]/20 focus:border-[#A8131C]/40 transition-all bg-gray-50 placeholder:text-gray-400"
+                className="flex-1 rounded-xl border border-gray-200 px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-[#D4A017]/20 focus:border-[#A8131C]/40 transition-all bg-gray-50"
                 placeholder="Ask me anything about the school…"
                 aria-label="Chat input"
                 disabled={isTyping}
