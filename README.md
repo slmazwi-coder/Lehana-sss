@@ -5,7 +5,7 @@ Official website for **Lehana Senior Secondary School**, Castle Rock, Tsekong Lo
 - **EMIS Number:** 200501358
 - **Established:** 1 January 1957
 - **Quintile:** Q1 (No-Fee School)
-- **Principal:** Mr I.M. Makhabane
+- **Principal:** Ms Ramaipato
 - **District:** Joe Gqabi, Elundini Local Municipality
 
 ## Run Locally

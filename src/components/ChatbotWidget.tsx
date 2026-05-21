@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { MessageCircle, X, Send, Globe, ChevronDown, Sparkles } from 'lucide-react';
 import { getApplications, type Application } from '../admin/utils/storage';
 
-// ── Types ────────────────────────────────────────────────────────────────────
+// ── Types ────────────────────────────────────────────────────────────────
 type ChatRole = 'user' | 'bot';
 type ChatMessage = {
   id: string;
@@ -35,7 +35,7 @@ const QUICK_QUESTIONS = [
   'What are the school hours?',
 ];
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
+// ── Helpers ───────────────────────────────────────────────────────────────
 function uid() {
   return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 }
@@ -133,7 +133,7 @@ async function translateText(text: string, src: SupportedLang, tgt: SupportedLan
   }
 }
 
-// ── Claude AI (Anthropic) ──────────────────────────────────────���─────────────
+// ── Claude AI (Anthropic) ────────────────────────────────────────────────────
 const SYSTEM_PROMPT = `You are a warm, knowledgeable and friendly assistant for Lehana Senior Secondary School in Mount Fletcher, Eastern Cape, South Africa.
 
 You help parents, learners, guardians and community members with anything about the school:
