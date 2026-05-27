@@ -327,7 +327,7 @@ const defaultAbout: AboutInfo = {
     'Located within the Joe Gqabi District under the Elundini Local Municipality, Lehana SSS is a Quintile 1 (No-Fee) school committed to providing quality education to all learners regardless of their financial circumstances. With 1,662 learners and 50 dedicated educators, the school offers a comprehensive curriculum from Grade 8 through Grade 12. Our motto — "Enter to Learn" — captures the spirit of opportunity that awaits every learner.',
     'Parents and guardians are encouraged to engage actively with the school through meetings, events, and ongoing learner support. Together we build a culture of achievement, discipline, and community pride.',
   ],
-  principalName: 'Ms Ramaipato',
+  principalName: 'Mrs Nyali',
   principalTitle: 'Principal',
   principalMessage: [
     'Welcome to Lehana Senior Secondary School. Since our founding in 1957, we have been dedicated to nurturing the potential of every learner who walks through our doors. Our mission is to provide a supportive environment where academic excellence and personal growth go hand in hand.',

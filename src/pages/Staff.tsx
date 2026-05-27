@@ -12,7 +12,7 @@ interface StaffMember {
 const staffData: StaffMember[] = [
   // ── Leadership ──────────────────────────────────────────────────────────
   {
-    name: 'Ms Ramaipato',
+    name: 'Mrs Nyali',
     position: 'Principal',
     category: 'Leadership',
     image: './assets/about/principal.jpg',
