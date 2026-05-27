@@ -161,7 +161,7 @@ School details:
 - Local Municipality: Elundini Local Municipality
 - Quintile: Q1 (No-Fee School)
 - Motto: "Enter to Learn"
-- Principal: Ms Ramaipato
+- Principal: Mrs Nyali
 - School hours: Monday–Thursday 07:30–15:30, Friday 07:30–13:30
 - Grades: Grade 8 to Grade 12
 - Total Learners: 1,662 | Total Educators: 50 | Student-Teacher Ratio: 33:1
